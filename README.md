@@ -1,16 +1,16 @@
-# PDF Chatbot with Gemini
+# PDF Chatbot with Google Gemini
 
-PDF se baat karne wala chatbot. PDF upload karo, phir uske andar se koi bhi sawal pucho. Gemini AI jawab dega.
+Chat with your PDFs using AI. Upload any PDF and ask questions about its content. Powered by Google Gemini + Streamlit.
 
 ## Features
-- PDF upload karke chat karo
-- Streamlit ka simple UI 
-- Google Gemini API use karta hai
-- Vector search with FAISS
+- Upload PDF and chat with it
+- Clean Streamlit web interface
+- Uses Google Gemini API for answers
+- FAISS vector search for fast results
 
-## Setup - Kaise Chalayein
+## Setup Instructions
 
-### 1. Install Python Packages
-Terminal kholo aur ye chalao:
+### 1. Install Dependencies
+Open terminal in project folder and run:
 ```bash
 pip install -r requirements.txt
